@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:text="@string/folder_title"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="9"
+        android:inputType="textCapSentences"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/colorDef"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/color_def"
+            android:onClick="setColorDef"
+            android:text="✓"/>
+
+        <Button
+            android:id="@+id/colorRed"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/color_red"
+            android:onClick="setColorRed"/>
+        <Button
+            android:id="@+id/colorBlue"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/color_blue"
+            android:onClick="setColorBlue"/>
+        <Button
+            android:id="@+id/colorGreen"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/color_green"
+            android:onClick="setColorGreen"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_done"
+            android:onClick="addFolder"
+            android:background="@color/colorTransparent"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

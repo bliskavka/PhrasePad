@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Stuff Pad</string>
+    <string name="empty_string">Content line is empty</string>
+    <string name="add_phrase">Add</string>
+    <string name="phrase_hint">Content</string>
+    <string name="author_hint">Author</string>
+    <string name="empty_list">List is empty</string>
+    <string name="no_name">no name</string>
+    <string name="folder_title">Folder Title</string>
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="new_folder">New Folder</string>
+    <string name="empty_title">Title line is empty</string>
+
+    <string name="warningDialog_title">Are you sure?</string>
+    <string name="warningDialog_message">Do you really want to delete this item? Action cannot be undone.</string>
+    <string name="mf_click_warning">You can`t do anything to Main folder</string>
+
+    <string name="button_done">Done</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_cancel">Cancel</string>
+</resources>
